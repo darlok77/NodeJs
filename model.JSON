@@ -1,0 +1,20 @@
+{
+  offreFiguration: {
+      objectId: 123456789,
+      nom: "BATMAN",
+      type: "Film", //Spectacle
+      nombre_de_jours: 12,
+      role: "passant",
+      nombre_de_figurants: 9, 
+  },
+  figurant: {
+      nom: "HENRY",
+      prenom: "Paul",
+      email: "paul.henry@bla.fr"
+  },
+  postulation: {
+      offre: 123456789,  // reference offre
+      statut: "ATT",  // REJ /ACC
+      date : "01/01/2017"
+  },
+}
